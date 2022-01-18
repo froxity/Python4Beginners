@@ -11,7 +11,7 @@ Below is source code and exercise that has been explained inside the [video](htt
 print("Hello World")
 ```
 Terminal output:
-```
+```shell
 Hello World
 ```
 ### Variable
@@ -24,12 +24,12 @@ age = 20 #integer variable
 patient = True #boolean variable (it can False)
 ```
 ### Receiving Input
-```python:
+```python
 name = input("What is your name? ")
 print("Hello " + name)
 ```
 Terminal Output:
-```
+```shell
 What is your name? Mosh
 Hello Mosh
 ```
@@ -48,7 +48,7 @@ age = 2022 - int(birth_year)
 print(age)
 ``` 
 Terminal Output:
-```
+```shell
 Enter your birth year: 1982
 38
 ```
@@ -66,7 +66,7 @@ sum = first + second
 print("Sum: " + str(sum))
 ``` 
 Terminal Output:
-```
+```shell
 First: 10.1
 Second: 20
 Sum: 30.1
@@ -78,7 +78,7 @@ print(course.upper())
 print(course)
 ```
 Terminal Output:
-```
+```shell
 PYTHON FOR BEGINNERS
 Python for Beginners
 ```
