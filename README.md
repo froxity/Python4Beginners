@@ -7,7 +7,7 @@ Below is source code and exercise that has been explained inside the [video](htt
 ## Get started
 
 ### Output value using print(value)
-```python:
+```python
 print("Hello World")
 ```
 Terminal output:
@@ -18,7 +18,7 @@ Hello World
 - We check in a patient named John Smith.
 - He is 20 years old.
 - He is new patient.
-```python:
+```python
 name = "John Smith" #string variable
 age = 20 #integer variable
 patient = True #boolean variable (it can False)
@@ -42,7 +42,7 @@ We have multiple type of conversion
  - float() : Change value to decimal/floating point
  - bool() : Change value boolean type
 
-```python:
+```python
 birth_year = input("Enter your birth year: ")
 age = 2022 - int(birth_year)
 print(age)
@@ -53,7 +53,7 @@ Enter your birth year: 1982
 38
 ```
 Another example:-
-```python:
+```python
 # First method
 first = input("First: ")
 second = input("Second : ")
@@ -72,7 +72,7 @@ Second: 20
 Sum: 30.1
 ```
 ### String modification
-```python:
+```python
 course = 'Python for Beginners'
 print(course.upper())
 print(course)
